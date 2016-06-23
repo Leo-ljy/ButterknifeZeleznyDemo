@@ -1,5 +1,8 @@
 package com.example.growup.butterknifezeleznydemo;
 
+import android.app.Activity;
+import android.os.Bundle;
+
 /**
  * 作者：        追梦
  * 邮箱：        1521541979@qq.com
@@ -7,6 +10,11 @@ package com.example.growup.butterknifezeleznydemo;
  * 日期：        2016/6/23 18:27
  * 描述：
  */
-public class NewClass
+public class NewClass extends Activity
 {
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+    }
 }
